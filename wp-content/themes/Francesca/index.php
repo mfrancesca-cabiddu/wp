@@ -3,8 +3,9 @@
 <html>
 <head>
     <title></title>
-    
+    <link rel="stylesheet" type="text/css" href="vendors/css/bootstrap.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
     <div class="jumbotron">
@@ -40,21 +41,21 @@
         </div>
     </div>
     <!-- form begin -->
-    <div class="row" id="contact">
-        <div class="col-lg-12 text-center">
+    <div class="container-fluid">
+        <div class="row text-center">
             <h2>Iscriviti alla nostra newsletter</h2>
             <h5>Sarai aggiornato sulle nostre novità e sul lancio di tutte le nuove offerte.</h5>
         </div>
         <form class="effezero-form">
-                <div class="col-lg-12">
-                    <div class="col-lg-6">
-                        <div class="form-group">
-                           <label for="exampleInputEmail1">Contattaci</label>
+            <div class="row">
+                <div class="col-md-6">
+                 <div class="form-group">
+                        <label for="exampleInputEmail1">Contattaci</label>
                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Inserisci qui la tua e-mail" required autofocus>
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Inserisci qui la tua password" required>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Inserisci qui la tua password" required >
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -62,9 +63,8 @@
                         <textarea class="form-control" rows="3" required></textarea>
                     </div>
                 </div>
-                <div class="row">
-            <div class="col-lg-12 text-center">
-                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                <div class="row text-center">
+                <button type="submit" class="btn btn-default">Submit</button>
             </div>
         </div>
     </form> 
