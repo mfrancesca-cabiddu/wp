@@ -10,8 +10,8 @@
     <!-- form begin -->
     <div class="container-fluid">
         <div class="row text-center">
-            <h2><?php bloginfo(name) ?<>/h2>
-            <h5><?php bloginfo(description) ?<>/h5>
+            <h2><?php bloginfo(name) ?></h2>
+            <h5><?php bloginfo(description) ?> </h5>
         </div>
  <div class="container-fluid">
         <div class="row text-center">
