@@ -1,4 +1,4 @@
-$(function () {
+(function ($) {
     'use strict';
 
     var loremText, lorem1, lorem2, lorem3;
@@ -12,5 +12,5 @@ $(function () {
     $(".lorem-text-2").html(lorem2);
     $(".lorem-text-3").html(lorem3);
 
-});
+})(jQuery);
 
