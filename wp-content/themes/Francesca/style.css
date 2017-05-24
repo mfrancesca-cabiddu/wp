@@ -1,3 +1,86 @@
-body{
-	
+/* form style */
+ .effezero-form {
+ 	padding: 10px 200px 10px 200px;
+ }
+ .effezero-form textarea{
+ 	height: 108px;
+ }
+h1 {
+	font-size: 58px;
+	font-family: "AdineKirnberg";
+	text-align: left;
 }
+h2 {
+	font-size: 48px;
+	font-family: "AdineKirnberg";
+}
+h4 {
+	color:#6A5ACD;
+	font-size: 24px;
+	font-family: "Cellos Script";
+	font-style: unset;
+	text-align: left;
+}
+h5 {
+	color:#6A5ACD;
+	font-size: 30px;
+	font-family: "Cellos Script";
+	font-style: unset;
+}
+.jumbotron {
+	background: url(../images/bg.jpg);
+	background-size: cover;
+	min-height: 850px;
+	padding-top: 10px;
+}
+.navbar-brand {
+	background: url(../images/brand.png) no-repeat;
+	height: 40px;
+	width: 180px;	
+	}	
+	.navbar-default {
+		background-color: transparent;
+		border-color: transparent;
+	}
+	.navbar-default .navbar-nav>li>a {
+		color: #D2B48C;
+		font-family: "Cellos Script";
+		font-size: 20px;
+		font-weight: 700;
+	}
+	.navbar-default .navbar-nav>li>a:hover,
+	.navbar-default .navbar-nav>li>a:focus {
+		color:#aaa;
+	}
+	.navbar-default .navbar-collapse {
+		padding-top: 4px;
+	}
+	.navbar-default .navbar-toggle {
+		border-color: white;
+	}
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+		background-color: white;
+	}
+
+	.welcome {
+		background: rgba(0, 0, 0, 0.2);
+		color: rgba(256, 256, 256, 0.85);
+		padding: 150px;
+		text-align: center;
+	}
+
+	@media (max-width: 750px) {
+		.navbar-default .navbar-collapse {
+			background-color: rgba(0, 0, 0, 0.2);
+			border-color: white;
+		}
+		.navbar-default .navbar-nav>li>a {
+			color: #D2B48C;
+			font-size: 20px;
+			font-weight: 700;
+			text-align: center;
+		}
+	}	
+
+
+
